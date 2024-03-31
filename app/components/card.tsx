@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({
   sport,
 }) => {
   return (
-    <div className="w-[237px] h-[511px] grid grid-rows-3 shadow-md bg-white overflow-hidden dark:bg-dark-200 text-white ">
+    <div className="w-[237px] h-[511px] grid grid-rows-3 shadow-xl bg-white overflow-hidden dark:bg-dark-200 text-white ">
       <div className="relative row-span-1">
         <Image
           src={imageSrc}

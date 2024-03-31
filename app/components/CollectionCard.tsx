@@ -27,7 +27,7 @@ const CollectionCard: React.FC<CardProps> = ({
 
 }) => {
   return (
-    <div className={` bg-light w-[257px] h-[625px] grid grid-rows-3 shadow-md overflow-hidden dark:bg-dark-200`}>
+    <div className={` bg-light w-[257px] h-[625px] grid grid-rows-3 shadow-xl overflow-hidden dark:bg-dark-200`}>
       <div className="h-100 w-[100%] flex flex-col items-center border-styles justify-evenly text-black m-auto mr-6 dark:text-white">
         <div className="h-[90%] grid rounded-b-2xl text-center w-full relative mb-6">
           <Image
