@@ -51,7 +51,7 @@ const CollectionCard: React.FC<CardProps> = ({
           <p className='text-center mt-2 max-w-[80%]'>{location}</p>
         </div>
       </div>
-      <div className='flex flex-col mt-8 justify-center items-center'>
+      <div className='flex flex-col mt-6 justify-center items-center'>
         <Button className='bg-black' btnName={TicketName}/>
       </div>
         </div>
