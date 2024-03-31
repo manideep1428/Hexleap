@@ -39,10 +39,10 @@ const CollectionCard: React.FC<CardProps> = ({
             className="m-auto"
           />
         </div>
-        <div className='flex flex-row w-full justify-between '>
-        <span className='w-4 h-4 rounded-tr rounded-br bg-white '></span>  
-        <span className='border-2 border-dashed border-[#818A97] w-[60%] h-0'></span>
-        <span className='w-4 h-4 rounded-full bg-white '></span>  
+        <div className='flex flex-row w-full justify-between items-center'>
+        <span className='w-3 h-5 rounded-r-full bg-light-gradient dark:bg-dark-gradient'></span>  
+        <span className='h-[2px] w-[70%] border border-dashed border-[#A9ACB2] dark:border-[#818A97]'></span> 
+        <span className='w-3 h-5 rounded-l-full bg-light-gradient dark:bg-dark-gradient '></span>  
         </div>
         <div className='flex flex-col mt-auto justify-center items-center'>
         <div className="relative flex flex-col items-center ml-4 text-black dark:text-white">

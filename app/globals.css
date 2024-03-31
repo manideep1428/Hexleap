@@ -15,3 +15,7 @@
 .dark-gradient{
   @apply bg-gradient-to-b from-primary to-secondary
 }
+
+.dashed-color{
+  @apply m-4
+}

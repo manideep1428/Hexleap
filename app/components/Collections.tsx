@@ -4,7 +4,7 @@ import CollectionCard from '../components/CollectionCard';
 
 const Collections: React.FC = () => {
   return (
-   <div className='flex flex-col darkgradient w-[1240px] h-[918px]'>
+   <div className='flex flex-col w-[1240px] h-[918px] bg-light-gradient dark:bg-dark-gradient'>
       <div className='flex flex-col gap-4 justify-center items-center text-black mt-10 dark:text-white' >
          <h2 className='font- text-5xl font-[700px] font-poppins'>Collection Spotlight</h2>
          <p >
