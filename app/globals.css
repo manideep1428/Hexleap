@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.half-circle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: -15px;
+    left: 47%;
+    background: lightblue;
+    border-radius: 100% 100%;
+}
+
+.dark-gradient{
+  @apply bg-gradient-to-b from-primary to-secondary
+}
