@@ -6,7 +6,7 @@ interface CardProps {
   imageSrc: string;
   altText: string;
   title: string;
-  date: number;
+  date: string;
   time: string;
   day: string;
   location: string;
@@ -46,9 +46,9 @@ const CollectionCard: React.FC<CardProps> = ({
         </div>
         <div className='flex flex-col mt-auto justify-center items-center'>
         <div className="relative flex flex-col items-center ml-4 text-black dark:text-white">
-          <h2 className="text-lg font-bold m-2">{title}</h2>
-          <p>{date}||{day}||{time}</p>
-          <p className='text-center max-w-[80%]'>{location}</p>
+          <h2 className="text-lg font-semibold m-2">{title}</h2>
+          <p>{date} | {day} | {time}</p>
+          <p className='text-center mt-2 max-w-[80%]'>{location}</p>
         </div>
       </div>
       <div className='flex flex-col mt-8 justify-center items-center'>
